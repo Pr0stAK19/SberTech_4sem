@@ -5,13 +5,15 @@
   <groupId>com.Sber.Pr0stAK</groupId>
   <artifactId>mvn-first-project</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>test-mvn</name>
   <url>http://maven.apache.org</url>
 
   <modules>
     <module>task_3</module>
+    <module>task_5</module>
+    <module>task_4</module>
   </modules>
 
 

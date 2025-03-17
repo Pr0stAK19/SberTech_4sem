@@ -1,4 +1,4 @@
-package com.Sber.Pr0stAK.ex3;
+package com.Sber.Pr0stAK.ex4.ex3;
 
 public class PaintExample {
     public static void main(String[] args) {

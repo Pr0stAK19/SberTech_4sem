@@ -1,4 +1,4 @@
-package com.Sber.Pr0stAK.ex3;
+package com.Sber.Pr0stAK.ex4.ex3;
 
 class Circle extends Figure {
     private double radius;
@@ -32,9 +32,9 @@ class Rectangle extends Figure {
     double perimeter() { return 2 * (width + height); }
 }
 
-class Square extends Rectangle {
+class Square extends Figure {
     public Square(Point point, double side) {
-        super(point, side, side);
+        super(point, side);
     }
 }
 
