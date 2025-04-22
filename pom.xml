@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.Sber.Pr0stAK</groupId>
+  <groupId>com.sber.pr0stak</groupId>
   <artifactId>mvn-first-project</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -11,9 +11,16 @@
   <url>http://maven.apache.org</url>
 
   <modules>
-    <module>task_3</module>
-    <module>task_5</module>
     <module>task_4</module>
+    <module>task_51</module>
+      <module>task_52</module>
+      <module>task_53</module>
+      <module>task_6</module>
+    <module>task_71</module>
+    <module>task_72</module>
+    <module>task_81</module>
+<!--    <module>task_82</module>-->
+    <module>task_9</module>
   </modules>
 
 
@@ -23,11 +30,18 @@
 
   <dependencies>
     <dependency>
+      <groupId>org.reflections</groupId>
+      <artifactId>reflections</artifactId>
+      <version>0.9.12</version>
+    </dependency>
+
+    <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
       <version>5.11.0</version>
       <scope>test</scope>
     </dependency>
+
   </dependencies>
 
 </project>
