@@ -8,14 +8,17 @@ import java.time.LocalDate;
 @CommandAnnotation(name = "date")
 public class DateCommand implements Command {
 
+    @Override
     public String getName(){
         return "date";
     }
 
+    @Override
     public String getHelp(){
         return "Выводит текущую дату";
     }
 
+    @Override
     public void execute(String[] args ) {
         System.out.println(LocalDate.now());
     }

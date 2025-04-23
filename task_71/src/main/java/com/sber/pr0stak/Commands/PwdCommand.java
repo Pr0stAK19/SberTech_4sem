@@ -8,10 +8,13 @@ import java.nio.file.Paths;
 
 @CommandAnnotation(name = "pwd")
 public class PwdCommand implements Command {
+
+    @Override
     public String getName() {
-        return "ls";
+        return "pwd";
     }
 
+    @Override
     public void execute(String[] args) {
         try {
             Files.list(Paths.get(".")).forEach(System.out::println);
@@ -20,6 +23,7 @@ public class PwdCommand implements Command {
         }
     }
 
+    @Override
     public String getHelp() {
         return "выводит содержимое текущей директории";
     }

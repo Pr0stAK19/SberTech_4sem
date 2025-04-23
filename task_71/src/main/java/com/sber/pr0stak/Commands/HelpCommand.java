@@ -11,15 +11,18 @@ public class HelpCommand implements Command {
         this.commands = commands;
     }
 
+    @Override
     public String getName() {
         return "help";
     }
 
+    @Override
     public void execute(String[] args) {
         for (Command cmd : commands) {
             System.out.println(cmd.getName() + ": " + cmd.getHelp());
         }
     }
+    @Override
     public String getHelp() {
         return "выводит список доступных команд";
     }
